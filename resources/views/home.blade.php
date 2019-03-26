@@ -1,4 +1,5 @@
-@include('layouts.admin_template.header')
-@include('layouts.admin_template.sidebar')
-@include('layouts.admin_template.main')
-@include('layouts.admin_template.footer')
+@extends('layouts.admin_template.main')
+
+@section('content')
+    test1
+@endsection
